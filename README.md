@@ -8,6 +8,8 @@
 ## 🎯 Objective:
 The primary goal of this project is to conduct a **descriptive analysis** of bikeway infrastructure data in Vancouver. Specifically, it examines how the **segment length** and **speed limits** of bikeways—particularly the *"Painted Lanes"* type—have changed over time based on their **year of construction**.
 
+This analysis is powered by the **AWS cloud platform**, leveraging services such as **Amazon S3**, **AWS Glue**, and **AWS Glue Databrew** for scalable data ingestion, transformation, and summarization.
+
 Through this analysis, we aim to identify **data-driven trends** that can help city planners understand the evolution of bikeway infrastructure and support future **transportation planning** decisions, leveraging AWS.
 
 ---
