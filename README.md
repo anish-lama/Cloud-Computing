@@ -41,7 +41,7 @@ The dataset includes bikeway infrastructure data from the **City of Vancouver**,
 
 ---
 ### 🖼️ Data Analytics Platform Design
-![Data Analytics Platform](https://raw.githubusercontent.com/anish-lama/Cloud-Computing/refs/heads/main/Images/DAP%20Design.png)
+![Data Analytics Platform](https://raw.githubusercontent.com/anish-lama/Cloud-Computing/main/Images/DAP%20Design.png)
 ---
 
 ## 🧠 Methodology
