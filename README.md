@@ -1,4 +1,4 @@
-# 🚲 Descriptive Analysis of Bikeway Development Trends in the City of Vancouver
+## Project I: 🚲 Descriptive Analysis of Bikeway Development Trends in the City of Vancouver
 
 ## 📌 Project Title:
 **Understanding Trends in Bikeway Segment Length and Speed Limits in the City of Vancouver**
@@ -104,6 +104,87 @@ This descriptive analysis project offers a robust and scalable pipeline for expl
 Leveraging **AWS cloud services** has enabled efficient, automated data processing—from ingestion to summarization—ensuring the system remains flexible and maintainable for future datasets.
 
 ---
+
+## 🧩 Project II: 📊 AWS Data Analytics Platform Implementation for the City of Vancouver
+
+---
+
+## 📌 Project Description:
+The City of Vancouver is planning to migrate its data analytics workloads to the **AWS Cloud**. As a data team, we have been tasked with **designing and implementing** a Data Analytics Platform (DAP) that meets the city's operational and analytical requirements.
+
+This project focuses on executing **Phase 2** of the platform development, emphasizing key areas such as:
+- 🔍 **Data Analysis**
+- 🔐 **Data Security**
+- 📏 **Data Governance**
+- 📈 **Data Monitoring**
+
+The goal is to leverage services like **AWS Athena**, **AWS Glue**, **S3**, **KMS**, and **CloudWatch** to build a secure, scalable, and governed data analytics pipeline for the city’s bikeways infrastructure data.
+
+---
+
+### 🖼️ Data Analytics Platform Design
+![Data Analytics Platform](https://raw.githubusercontent.com/anish-lama/Cloud-Computing/main/Images/DAP2.png)
+
+---
+## 🔧 Methodology
+
+### 1. Data Collection
+- Retrieved data from the AWS Glue Data Catalog (`bikeways-data-catalog-ani`) using Amazon Athena.
+- Queried curated datasets stored in S3 to answer key business questions (e.g., segment length trends, speed limit extremes).
+
+### 2. Data Security
+- Implemented encryption on all S3 buckets using **AWS Key Management Service (KMS)**.
+- Enabled server-side encryption and bucket versioning to maintain security and recovery options.
+
+### 3. Data Governance
+- Built a **data quality pipeline** using **AWS Glue Visual ETL** to assess:
+  - Completeness (e.g., segment length coverage)
+  - Uniqueness (e.g., object ID integrity)
+  - Freshness (e.g., recent upgrade year data)
+- Segregated and stored passed and failed records into designated folders in the transform bucket.
+
+### 4. Data Monitoring
+- Configured **AWS CloudWatch Dashboards** to monitor:
+  - S3 bucket size trends (last 3 months)
+  - Job runtime durations
+- Set **CloudWatch Alarms** and notifications to alert when thresholds (e.g., bucket size > 500k) are crossed.
+
+---
+
+## 🛠️ Tools and Technologies
+
+- **Amazon Athena** – For running SQL queries on curated data in S3.
+- **AWS Glue** – Used for ETL pipelines, schema generation, and data quality checks.
+- **AWS Glue Data Catalog** – Centralized metadata store for structured datasets.
+- **AWS S3** – Storage for raw, transformed, and curated datasets with encryption.
+- **AWS KMS** – Key management for encryption and secure access.
+- **AWS CloudWatch** – Real-time data monitoring, dashboarding, and alerts.
+
+---
+
+## 📦 Deliverables
+
+- ✅ SQL-based business insights on bikeway trends (e.g., average segment length, speed ranges).
+- ✅ Data encryption and versioning applied to all buckets for secure storage.
+- ✅ Governance framework using AWS Glue rules to validate and clean data.
+- ✅ CloudWatch dashboard for continuous monitoring and real-time alerts.
+- ✅ Screenshots and documentation for all configurations and implementations.
+
+---
+
+## 🧾 Conclusion
+
+This project successfully demonstrates the **implementation of a secure, governed, and scalable AWS Data Analytics Platform (DAP)** for the City of Vancouver. By leveraging services like **Athena, Glue, S3, KMS, and CloudWatch**, we ensured a seamless pipeline—from data query to quality checks and monitoring.
+
+Key deliverables such as real-time dashboards, encrypted storage, and structured querying empower the city’s data team to make faster, smarter infrastructure decisions while maintaining strong data integrity and security practices.
+
+The DAP implementation follows best practices in cloud data management and positions Vancouver to scale and maintain its bikeway infrastructure with confidence.
+
+---
+
+
+
+
 
 
 
