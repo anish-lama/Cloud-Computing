@@ -182,6 +182,13 @@ The DAP implementation follows best practices in cloud data management and posit
 
 ---
 
+## 🏅 AWS Cloud Foundations Certifications
+
+**Certification:**  
+![Certification Image](https://raw.githubusercontent.com/anish-lama/Cloud-Computing/main/Images/AWS%20Cloud%20Foundation%20Certificate.jpeg)
+
+**Badge:**  
+![Badge Screenshot](https://raw.githubusercontent.com/anish-lama/Cloud-Computing/refs/heads/main/Images/aws-academy-graduate-aws-academy-cloud-foundations.png)
 
 
 
